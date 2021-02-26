@@ -5,9 +5,7 @@
 #define PROJECT_NAME "SDLC_Calculator_Project"
 
 void test_convertFahCelsius(void);
-void test_fahrenheit_to_kelvin(void);
-void test_kelvin_to_fahrenheit(void);
-
+void test_convertCelFahrenheit(void);
 void test_interest(void);
 void test_Profit(void);
 void test_Loss(void);
@@ -25,11 +23,8 @@ int main() {
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
 /* Note: Do not edit END */
 
-  CU_add_test(suite, "TEST_FAHRENHEIT_TO_CELSIUS", test_fahrenheit_to_celsius);
-  CU_add_test(suite, "TEST_CELSIUS_TO_FAHRENHEIT", test_celsius_to_fahrenheit);
-  CU_add_test(suite, "TEST_FAHRENHEIT_TO_KELVIN", test_fahrenheit_to_kelvin);
-  
-  
+  CU_add_test(suite, "TEST_CONVERTFAHCELSIUS", test_convertFahCelsius);
+  CU_add_test(suite, "TEST_CONVERTCELFAHRENHEIT", test_convertCelFahrenheit);
   CU_add_test(suite, "TEST_INTEREST", test_interest);
   CU_add_test(suite, "TEST_PROFIT", test_profit);
   CU_add_test(suite, "TEST_LOSS", test_loss);
@@ -55,21 +50,16 @@ int main() {
 
 void test_convertFahCelsius(void)
 {
-  CU_ASSERT_EQUAL(7.000, add(5,2));
-  CU_ASSERT_EQUAL(10.00, add(7,3));
-  CU_ASSERT_EQUAL(2000.00, add(500,1500));
+  CU_ASSERT_EQUAL(36.67, convertFahCelsius(98));
+  CU_ASSERT_EQUAL(37.78, convertFahCelsius(100));
+ 
 }
-
-
-
-void test_factorial(void) {
-  CU_ASSERT_EQUAL(120, fact(5));
-  CU_ASSERT_EQUAL(1, fact(1));
-  CU_ASSERT_EQUAL(6, fact(3));
+void test_convertCelFahrenheit(void)
+{
+  CU_ASSERT_EQUAL(95.00, convertCelFahrenheit(35));
+  CU_ASSERT_EQUAL(98.60, convertCelFahrenheit(37));
+ 
 }
-
-
-
 void test_interest(void) 
 {
   CU_ASSERT_EQUAL(660.00, interest(1000,2,3));
