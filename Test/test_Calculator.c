@@ -9,8 +9,6 @@ void test_convertCelFahrenheit(void);
 void test_interest(void);
 void test_Profit(void);
 void test_Loss(void);
-
-
 void test_areaofsquare(void);
 void test_areaRectangle(void);
 
@@ -28,8 +26,6 @@ int main() {
   CU_add_test(suite, "TEST_INTEREST", test_interest);
   CU_add_test(suite, "TEST_PROFIT", test_profit);
   CU_add_test(suite, "TEST_LOSS", test_loss);
-  
-  
   CU_add_test(suite, "TEST_AREAOFSQUARE", test_square);
   CU_add_test(suite, "TEST_AREARECTANGLE", test_rectangle);
 
@@ -54,12 +50,14 @@ void test_convertFahCelsius(void)
   CU_ASSERT_EQUAL(37.78, convertFahCelsius(100));
  
 }
+
 void test_convertCelFahrenheit(void)
 {
   CU_ASSERT_EQUAL(95.00, convertCelFahrenheit(35));
   CU_ASSERT_EQUAL(98.60, convertCelFahrenheit(37));
  
 }
+
 void test_interest(void) 
 {
   CU_ASSERT_EQUAL(660.00, interest(1000,2,3));
@@ -79,8 +77,6 @@ void test_Loss(void)
   CU_ASSERT_EQUAL(4412.00 Loss, Loss(3433,7845));
   CU_ASSERT_EQUAL(2297.00 Loss, Loss(7733,5436));
 }
-
-//Square and area
 
 void test_square(void)
 {
