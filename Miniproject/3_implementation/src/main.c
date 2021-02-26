@@ -14,6 +14,9 @@ int main()
     
     printf("1. For Fahrenheit To Celsius\n");
     printf("2. For Celsius To Fahrenheit\n");
+    printf("3. Simple Interest\n");
+    printf("4. Profit or loss\n");
+
     
     printf("\n\nEnter Your Choice\n");
     scanf("%d",&x);
