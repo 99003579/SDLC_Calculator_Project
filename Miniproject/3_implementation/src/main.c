@@ -70,7 +70,7 @@ int main()
         case 6:
                printf("enter side of square: ");
 	             scanf("%f",&s);
-	             a=area(s);
+	             a=areaofsquare(s);
             	 printf("AOS: %f\n",a);
 	             break;     
    

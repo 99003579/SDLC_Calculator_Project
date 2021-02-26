@@ -6,5 +6,7 @@ float convertCelFahrenheit(float c);
 float interest(float P,float R, float T);
 float Profit(float CostPrice, float SellingPrice);
 float Loss(float CostPrice, float SellingPrice);
+int areaRectangle(int length, int width);
+float areaofsquare(float s);
 
 #endif
