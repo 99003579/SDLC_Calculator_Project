@@ -15,6 +15,7 @@ float interest(float P,float R, float T)
      SimpleInterest=P*R*T/100.0;
      return SimpleInterest;
 }
+//Function will return Profit
 float Profit(float CostPrice, float SellingPrice)
 {
 
