@@ -3,18 +3,18 @@
         {
             "type": "cppbuild",
             "label": "C/C++ build",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "command": "C:/MinGW/bin/gcc.exe",
             "args": [
                 "-g",
-                "-I${workspaceFolder}\\inc",
+                "-Iinc",
                 "-Wl,-subsystem,console",
-                "${workspaceFolder}\\src\\calculator.c",
-                "${workspaceFolder}\\src\\main.c",
+                "src/calculator.c",
+                "src/main.c",
                 "-o",
-                "${workspaceFolder}\\calculator.exe"
+                "calculator.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceFolder}/Miniproject/3_implementation"
             },
             "problemMatcher": [
                 "$gcc"
