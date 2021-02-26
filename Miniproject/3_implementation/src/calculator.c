@@ -31,7 +31,7 @@ int areaRectangle(int length, int width)
 {
     return length * width;
 }
-float area(float s)
+float areaofsquare(float s)
 {
 	return (s*s);
 }
