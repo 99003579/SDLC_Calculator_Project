@@ -13,8 +13,8 @@ void test_Profit(void);
 void test_Loss(void);
 
 
-void test_square(void);
-void test_rectangle(void);
+void test_areaofsquare(void);
+void test_areaRectangle(void);
 
 
 int main() {
@@ -35,10 +35,8 @@ int main() {
   CU_add_test(suite, "TEST_LOSS", test_loss);
   
   
-  
-  CU_add_test(suite, "TEST_MODULO", test_modulo);
-  CU_add_test(suite, "TEST_SQUARE", test_square);
-  CU_add_test(suite, "TEST_RECTANGLE", test_rectangle);
+  CU_add_test(suite, "TEST_AREAOFSQUARE", test_square);
+  CU_add_test(suite, "TEST_AREARECTANGLE", test_rectangle);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
