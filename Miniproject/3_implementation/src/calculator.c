@@ -27,3 +27,11 @@ float Loss(float CostPrice, float SellingPrice)
     return ( CostPrice - SellingPrice);
 
 }
+int areaRectangle(int length, int width)
+{
+    return length * width;
+}
+float area(float s)
+{
+	return (s*s);
+}

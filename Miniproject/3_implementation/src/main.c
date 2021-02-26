@@ -6,10 +6,10 @@
 
 int main()
 {
-    int x;
+    int x,l,b,area;
     float celsius, fahrenheit;
     float Amount,Time,Rate,Result;
-
+    float s,a;
     float CostPrice, SellingPrice;
     
     printf("1. For Fahrenheit To Celsius\n");
@@ -58,6 +58,22 @@ int main()
                   else
                       printf("\n%f Loss\n", Loss(CostPrice, SellingPrice));
                             break;
+        case 5:
+                printf("Enter the length : ");
+                scanf("%d", &l);
+                printf("Enter the width : ");
+                scanf("%d", &b);
+                area = areaRectangle(l, b);
+                printf("The area of the rectangle : %d", area);
+                break;
+
+        case 6:
+               printf("enter side of square: ");
+	             scanf("%f",&s);
+	             a=area(s);
+            	 printf("AOS: %f\n",a);
+	             break;     
+   
          
          default:  printf("\n\nInvalid input\n");
                   break;
