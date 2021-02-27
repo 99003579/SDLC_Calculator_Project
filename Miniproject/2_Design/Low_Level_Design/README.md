@@ -5,3 +5,5 @@
 ##Use case diagram to calculate profit or loss
 ![a5d36d59-0729-4c4c-82b8-9e3dc206cf0d](https://user-images.githubusercontent.com/78539781/109375066-c8647900-78df-11eb-89d1-1be0551f2a87.jpg)
 
+##Use case diagram to calculate area of square and rectangle
+![0001](https://user-images.githubusercontent.com/78539650/109375290-aec43100-78e1-11eb-84d1-e04ec745c40a.jpg)
