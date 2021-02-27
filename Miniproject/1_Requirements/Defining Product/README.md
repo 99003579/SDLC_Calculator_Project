@@ -5,3 +5,5 @@ The calculator we have designed will have following features,
 - Area of square
 - Area of a rectangle
 - Temperature conversions
+- Fahrenheat to Celsius
+- Celsius to Fahrenheat
