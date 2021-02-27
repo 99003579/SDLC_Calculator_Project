@@ -42,7 +42,7 @@ int main() {
   return 0;
 }
 
-//-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
+
 
 void test_convertFahCelsius(void)
 {
@@ -84,6 +84,6 @@ void test_square(void)
 }
 
 void test_rectangle(void) {
-  CU_ASSERT_EQUAL(20.00, rectangle(10,2));
+  CU_ASSERT_EQUAL(20, rectangle(10,2));
 }
   
