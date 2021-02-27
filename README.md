@@ -7,6 +7,8 @@
 
 To view [GIT INSPECTOR](https://99003579.github.io/SDLC_Calculator_Project/)
 
+##TEST SUMMARY
+
 | Name | PS Number | Features | No of test cases | No of test cases passed | No of test cases not passed |
 | --- | --- | --- | --- | --- | --- |
 | Uzma Kousar | 99003582 | 1.Temperature Conversion | 2 | 2 | 0 |
