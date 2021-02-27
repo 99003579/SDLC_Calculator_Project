@@ -12,3 +12,11 @@ To view [GIT INSPECTOR](https://99003579.github.io/SDLC_Calculator_Project/)
 | Uzma Kousar | 99003582 | 1.Temperature Conversion | 2 | 2 | 0 |
 | Tejaswini B | 99003579 | 1.Simple interest calculation2. Profit or loss calculation | 3 | 3 | 0 |
 | Harshitha D R | 99003575 | 1.Area of a rectangle2.Area of a square | 2 | 2 | 0 |
+
+
+**CHALLENGES FACED:**
+
+| **Sl No.** | **CHALLENGES** |
+| --- | --- |
+| 1. | Occurance of errors while using makefiles. |
+| 2. | Difficulties while executing the test cases. |
