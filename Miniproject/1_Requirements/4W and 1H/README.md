@@ -25,7 +25,7 @@ WHERE ?
 - Many are sold into educational markets.
 - Some high-end models include features making it easier to translate a problem on a textbook page into calculator input.
 
-HOW ?
+HOW ? 
 
 - Most calculators depend on integrated circuits, commonly known as chips. These [circuits](https://science.howstuffworks.com/environmental/energy/circuit.htm) use transistors to add and subtract, as well as to perform computations on logarithms in order to accomplish multiplication, division and more complicated operations such as using exponents and finding square roots. Basically, the more transistors an integrated circuit has, the more advanced its functions may be. Most standard pocket calculators have identical, or very similar, integrated circuitry.
 - The chips inside a calculator work by reducing any information you give it to its binary equivalent.
