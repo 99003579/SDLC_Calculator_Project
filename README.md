@@ -11,7 +11,7 @@ To view [GIT INSPECTOR](https://99003579.github.io/SDLC_Calculator_Project/)
 
 | Name | PS Number | Features | No of test cases | No of test cases passed | No of test cases not passed |
 | --- | --- | --- | --- | --- | --- |
-| Uzma Kousar | 99003582 | 1.Temperature Conversion celsius to fahrenheit and fahranheit to celsius| 2 | 2 | 0 |
+| Uzma Kousar | 99003582 | Temperature Conversion 1.celsius to fahrenheit  2.fahranheit to celsius| 2 | 2 | 0 |
 | Tejaswini B | 99003579 | 1.Simple interest calculation2. Profit or loss calculation | 3 | 3 | 0 |
 | Harshitha D R | 99003575 | 1.Area of a rectangle2.Area of a square | 2 | 2 | 0 |
 
