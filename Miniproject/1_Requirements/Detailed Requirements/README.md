@@ -11,4 +11,4 @@
 
 • The user can store a value in memory for later use and the user can perform operations beyond arithmetic
 
-• The calculator should display &quot;Invalid Selection&quot; when user gives invalid input.
+• The calculator should display &quot;Invalid Selection&quot; when user gives invalid input. 
